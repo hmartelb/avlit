@@ -14,9 +14,9 @@ ______________________________________________________________________
 </div>
 
 # Description
-Official Pytorch implementation of "Audio visual speech separation in noisy environments with a lightweight iterative model".
+Official Pytorch implementation of "Audio-Visual Speech Separation in Noisy Environments with a Lightweight Iterative Model", to appear at INTERSPEECH 2023.
 
-> :warning: This work is currently under review. The code will be made public upon the acceptance of the paper.
+> 🚀: The code will be released soon.
 
 
 # License
@@ -25,7 +25,7 @@ This code implementation is licensed under the terms of the MIT License.
 
 ```
 MIT License
-Copyright (c) 2022 Héctor Martel
+Copyright (c) 2023 Héctor Martel
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

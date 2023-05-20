@@ -14,7 +14,7 @@ ______________________________________________________________________
 </div>
 
 # Description
-Official Pytorch implementation of "Audio-Visual Speech Separation in Noisy Environments with a Lightweight Iterative Model", to appear at INTERSPEECH 2023.
+Official Pytorch Lightning implementation of "Audio-Visual Speech Separation in Noisy Environments with a Lightweight Iterative Model", to appear at INTERSPEECH 2023.
 
 > 🚀: The code will be released soon.
 

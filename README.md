@@ -100,8 +100,8 @@ If you use AVLIT in your research, please cite our paper:
 
 # Contact
 
-* For **bugs** or **issues with the code**, please open an issue in this repository.
-* For **technical/academic questions** please write an email to the corresponding authors mentioned in the paper.
+* For **bugs** or **problems with the code**, please open an issue in this repository.
+* For **technical/academic questions** please write an email to the corresponding authors mentioned in the paper. Alternatively, use the discussions page. Do not open an issue.
 * For **other inquiries**, contact me via email at hmartelb@hotmail.com. 
 
 # License

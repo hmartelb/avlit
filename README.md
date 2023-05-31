@@ -24,16 +24,16 @@ Official Pytorch Lightning implementation of "Audio-Visual Speech Separation in 
 | ![AVLIT_Folded](docs/AVLIT_Folded.png) | ![AVLIT_Unfolded](docs/AVLIT_Unfolded.png) |
 | (A) Folded view of AVLIT | (B) Unfolded view of AVLIT |
 
-Audio-Visual Lightweight ITerative model (AVLIT) uses the A-FRCNN as building block. 
-It uses a homogeneous design to process multi-modal data and the weights are shared for each modality, making the number of parameters constant. Please refer to the paper for details.
+Audio-Visual Lightweight ITerative model (AVLIT) uses the [A-FRCNN](https://github.com/JusperLee/AFRCNN-For-Speech-Separation) as building block. 
+AVLIT employs a homogeneous design with audio and video branches composed of A-FRCNN blocks used iteratively. The weights are shared for each modality, making the number of parameters constant. Please refer to the paper for details.
 
-# Quick start
+## Quick start
 
-## Installation
+### Installation
 
-Make sure to have ``pytorch`` with GPU support installed on your machine according to the official installation guide.
+Make sure to have ``pytorch`` with GPU support installed on your machine according to the [official installation guide](https://pytorch.org/get-started/locally/).
 
-## Basic usage
+### Basic usage
 
 Here is a minimal example of how to use AVLIT in plain Pytorch. The default parameters will produce the configuration for AVLIT-8, which is the best performing model in the paper.
 
@@ -56,7 +56,7 @@ model.cuda()
 
 ```
 
-## Advanced usage
+### Advanced usage
 
 For more control over the architecture, it is possible to provide values for more parameters as follows:
 
@@ -91,20 +91,20 @@ model.cuda()
 
 ```
 
-# Citation
+## Citation
 
 If you use AVLIT in your research, please cite our paper:
 ```
 [Citation coming soon]
 ```
 
-# Contact
+## Contact
 
 * For **technical/academic questions** please write an email to the corresponding authors mentioned in the paper. Alternatively, use the [discussions](https://github.com/hmartelb/avlit/discussions) page. Do not open an issue.
 * For **bugs** or **problems with the code**, please [open an issue](https://github.com/hmartelb/avlit/issues) in this repository.
 * For **other inquiries**, contact me via email at hmartelb@hotmail.com. 
 
-# License
+## License
 
 This code is licensed under the terms of the MIT License.
 

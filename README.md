@@ -21,7 +21,7 @@ Official Pytorch Lightning implementation of "Audio-Visual Speech Separation in 
 
 # License
 
-This code implementation is licensed under the terms of the MIT License.
+This code is licensed under the terms of the MIT License.
 
 ```
 MIT License

@@ -91,11 +91,16 @@ model.cuda()
 
 ```
 
-## Citation
+## Cite
 
 If you use AVLIT in your research, please cite our paper:
 ```
-[Citation coming soon]
+@inproceedings{avlit,
+  title={Audio-Visual Speech Separation in Noisy Environments with a Lightweight Iterative Model},
+  author={Martel, Héctor and Richter, Julius and Li, Kai and Hu, Xiaolin and Gerkmann, Timo},
+  booktitle={Interspeech}
+  year={2023}
+}
 ```
 
 ## Contact
@@ -130,14 +135,3 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
-## Cite
-```
-@inproceedings{avlit,
-  title={Audio-Visual Speech Separation in Noisy Environments with a Lightweight Iterative Model},
-  author={Martel, Héctor and Richter, Julius and Li, Kai and Hu, Xiaolin and Gerkmann, Timo},
-  booktitle={Interspeech}
-  year={2023}
-}
-```
-
-

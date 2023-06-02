@@ -1,0 +1,21 @@
+_target_: src.avlit.AVLIT
+
+num_sources: 2
+
+# Audio branch
+kernel_size: 40 
+audio_num_blocks: 4
+audio_hidden_channels: 512
+audio_bottleneck_channels: 128
+audio_states: 5
+
+# Video branch
+video_num_blocks: 2
+audio_hidden_channels: 128
+audio_bottleneck_channels: 128
+video_states: 5
+video_embedding_dim: 1024
+
+# AV fusion
+fusion_op: "sum"
+fusion_positions: [0]

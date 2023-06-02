@@ -16,7 +16,7 @@ ______________________________________________________________________
 > 🚀: The code will be released soon.
 
 ## Description
-Official Pytorch Lightning implementation of "Audio-Visual Speech Separation in Noisy Environments with a Lightweight Iterative Model", accepted at INTERSPEECH 2023.
+Official Pytorch Lightning implementation of ["Audio-Visual Speech Separation in Noisy Environments with a Lightweight Iterative Model"](https://arxiv.org/abs/2306.00160), accepted at INTERSPEECH 2023.
 
 |            |            |
 |:----------:|:----------:|
@@ -89,6 +89,15 @@ model.cuda()
 # Training or inference logic here
 # ...
 
+```
+
+### Tests
+The [tests/](https://github.com/hmartelb/avlit/blob/main/tests) folder contains unit tests for the AVLIT architecture. 
+It is useful to run these tests if you want to customize the configuration parameters to verify that the input/output shapes are as expected and that the model can perform a forward pass correctly on CPU/GPU.  
+
+To run all the unit tests, make sure to install the ``pytest`` package and run:
+```
+pytest tests/test_avlit.py 
 ```
 
 ## Cite

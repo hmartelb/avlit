@@ -5,15 +5,13 @@ ______________________________________________________________________
 # AVLIT: Audio-Visual Lightweight ITerative model
 
 <a href="https://pytorch.org/get-started/locally/"><img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-ee4c2c?logo=pytorch&logoColor=white"></a>
+[![Paper](http://img.shields.io/badge/paper-arxiv.2306.00160-B31B1B.svg)](https://arxiv.org/abs/2306.00160)
 <!-- <a href="https://pytorchlightning.ai/"><img alt="Lightning" src="https://img.shields.io/badge/-Lightning-792ee5?logo=pytorchlightning&logoColor=white"></a> -->
 <!-- <a href="https://hydra.cc/"><img alt="Config: Hydra" src="https://img.shields.io/badge/Config-Hydra-89b8cd"></a> -->
 <!-- <a href="https://github.com/ashleve/lightning-hydra-template"><img alt="Template" src="https://img.shields.io/badge/-Lightning--Hydra--Template-017F2F?style=flat&logo=github&labelColor=gray"></a><br> -->
-<!-- [![Paper](http://img.shields.io/badge/paper-arxiv.1001.2234-B31B1B.svg)](https://www.nature.com/articles/nature14539) -->
 <!-- [![Conference](http://img.shields.io/badge/AnyConference-year-4b44ce.svg)](https://papers.nips.cc/paper/2020) -->
 
 </div>
-
-> 🚀: The code will be released soon.
 
 ## Description
 Official Pytorch Lightning implementation of ["Audio-Visual Speech Separation in Noisy Environments with a Lightweight Iterative Model"](https://arxiv.org/abs/2306.00160), accepted at INTERSPEECH 2023.
@@ -38,7 +36,7 @@ Make sure to have ``pytorch`` with GPU support installed on your machine accordi
 Here is a minimal example of how to use AVLIT in plain Pytorch. The default parameters will produce the configuration for AVLIT-8, which is the best performing model in the paper.
 
 ```python
-from avlit import AVLIT
+from src.avlit import AVLIT
 
 # Instantiate the model
 model = AVLIT(
@@ -61,7 +59,7 @@ model.cuda()
 For more control over the architecture, it is possible to provide values for more parameters as follows:
 
 ```python
-from avlit import AVLIT
+from src.avlit import AVLIT
 
 # Instantiate the model
 model = AVLIT(
@@ -117,6 +115,12 @@ If you use AVLIT in your research, please cite our paper:
 * For **technical/academic questions** please write an email to the corresponding authors mentioned in the paper. Alternatively, use the [discussions](https://github.com/hmartelb/avlit/discussions) page. Do not open an issue.
 * For **bugs** or **problems with the code**, please [open an issue](https://github.com/hmartelb/avlit/issues) in this repository.
 * For **other inquiries**, contact me via email at hmartelb@hotmail.com. 
+
+## Changelog
+
+* [2023/06/02] 🚀 Model code released.
+* [2023/05/31] 📰 Final version made public on arXiv.org. 
+* [2023/05/17] 📰 Paper accepted at INTERSPEECH 2023! 
 
 ## License
 

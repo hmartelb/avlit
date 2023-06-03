@@ -5,7 +5,8 @@ ______________________________________________________________________
 # AVLIT: Audio-Visual Lightweight ITerative model
 
 <a href="https://pytorch.org/get-started/locally/"><img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-ee4c2c?logo=pytorch&logoColor=white"></a>
-[![Paper](http://img.shields.io/badge/paper-arxiv.2306.00160-B31B1B.svg)](https://arxiv.org/abs/2306.00160)
+[![arXiv](https://img.shields.io/badge/arXiv-2306.00160-brightgreen.svg)](https://arxiv.org/abs/2306.00160)
+<!-- [![Paper](http://img.shields.io/badge/paper-arxiv.2306.00160-B31B1B.svg)](https://arxiv.org/abs/2306.00160) -->
 <!-- <a href="https://pytorchlightning.ai/"><img alt="Lightning" src="https://img.shields.io/badge/-Lightning-792ee5?logo=pytorchlightning&logoColor=white"></a> -->
 <!-- <a href="https://hydra.cc/"><img alt="Config: Hydra" src="https://img.shields.io/badge/Config-Hydra-89b8cd"></a> -->
 <!-- <a href="https://github.com/ashleve/lightning-hydra-template"><img alt="Template" src="https://img.shields.io/badge/-Lightning--Hydra--Template-017F2F?style=flat&logo=github&labelColor=gray"></a><br> -->
@@ -101,7 +102,7 @@ pytest tests/test_avlit.py
 ## Cite
 
 If you use AVLIT in your research, please cite our paper:
-```
+```bibtex
 @inproceedings{avlit,
   title={Audio-Visual Speech Separation in Noisy Environments with a Lightweight Iterative Model},
   author={Martel, Héctor and Richter, Julius and Li, Kai and Hu, Xiaolin and Gerkmann, Timo},

@@ -120,7 +120,8 @@ If you use AVLIT in your research, please cite our paper:
 * For **other inquiries**, contact me via email at hmartelb@hotmail.com. 
 
 ## Changelog
-
+ 
+* [2023/07/26] 🎧 Demo samples website made public.
 * [2023/06/02] 🚀 Model code released.
 * [2023/05/31] 📰 Final version made public on arXiv.org. 
 * [2023/05/17] 📰 Paper accepted at INTERSPEECH 2023! 

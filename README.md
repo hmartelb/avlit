@@ -98,7 +98,7 @@ It is useful to run these tests if you want to customize the configuration param
 
 To run all the unit tests, make sure to install the ``pytest`` package and run:
 ```
-pytest tests/test_avlit.py 
+pytest tests/test_models.py 
 ```
 
 ## Cite

@@ -105,11 +105,13 @@ pytest tests/test_models.py
 
 If you use AVLIT in your research, please cite our paper:
 ```bibtex
-@inproceedings{avlit,
-  title={Audio-Visual Speech Separation in Noisy Environments with a Lightweight Iterative Model},
-  author={Martel, Héctor and Richter, Julius and Li, Kai and Hu, Xiaolin and Gerkmann, Timo},
-  booktitle={Interspeech},
-  year={2023}
+@inproceedings{martel23_interspeech,
+  author={Héctor Martel and Julius Richter and Kai Li and Xiaolin Hu and Timo Gerkmann},
+  title={{Audio-Visual Speech Separation in Noisy Environments with a Lightweight Iterative Model}},
+  year=2023,
+  booktitle={Proc. INTERSPEECH 2023},
+  pages={1673--1677},
+  doi={10.21437/Interspeech.2023-1753}
 }
 ```
 
